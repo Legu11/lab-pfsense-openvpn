@@ -1,10 +1,15 @@
-# 🛡️ Infrastructure Pare-feu pfSense & Accès Distant OpenVPN
+![pfSense](https://img.shields.io/badge/pfSense-2.7.2--RELEASE-212121?style=for-the-badge&logo=pfsense&logoColor=white)
+![OpenVPN](https://img.shields.io/badge/OpenVPN-SSL%2FTLS-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-Workstation-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![Security](https://img.shields.io/badge/Security-PKI%20%2F%20Firewall-success?style=for-the-badge)
+
+# Infrastructure Pare-feu pfSense & Accès Distant OpenVPN
 
 > Réalisation d'un projet d'infrastructure et de cybersécurité visant à déployer et sécuriser l'accès distant d'un collaborateur vers un réseau privé d'entreprise, à travers un pare-feu **pfSense** et un tunnel chiffré **OpenVPN**.
 
 ---
 
-## 🎯 Objectifs & Réalisations
+## Objectifs & Réalisations
 
 * **Virtualisation & Architecture Réseau :** Instanciation du pare-feu **pfSense 2.7.2** sur **VMware Workstation** avec segmentation stricte entre le réseau externe (`WAN` en `192.168.23.142/24`) et le réseau privé (`LAN` en `192.168.1.1/24`).
 * **Infrastructure à Clés Publiques (PKI) :** Déploiement d'une Autorité de Certification interne (`VPN-CA`) avec chiffrement `RSA 2048 bits` / `SHA-256` pour la signature et la gestion du cycle de vie des certificats.
@@ -14,7 +19,7 @@
 
 ---
 
-## 🛠️ Environnement technique
+## Environnement technique
 
 `pfSense 2.7.2` • `OpenVPN` • `PKI / CA (SSL/TLS)` • `OpenVPN Connect` • `VMware Workstation` • `Routage & Filtrage IP` • `ICMP`
 
